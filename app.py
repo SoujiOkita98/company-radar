@@ -4,7 +4,8 @@ import json
 import time
 from datetime import datetime, timedelta
 import requests
-from flask import Flask, request, render_template, Markup
+from flask import Flask, request, render_template
+from markupsafe import Markup
 from openai import OpenAI
 
 # ---------- Configuration (use env vars in production) ----------
