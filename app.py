@@ -181,7 +181,7 @@ Company emphasis:
     )
 
     resp = client.responses.create(
-        model="gpt-5-nano",
+        model="gpt-5",
         instructions=system_prompt,
         input=user_input,
     )
